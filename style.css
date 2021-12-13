@@ -1,0 +1,27 @@
+header{
+    background-color: black;
+    text-align: center;
+    color: white;
+    border-radius: 1rem;
+}
+
+img{
+    height: 500px;
+    border-radius: 10%;
+    border-style: solid;
+    border-color: black;
+    padding: 1rem;
+    
+}
+
+footer{
+    padding: 0%;
+    text-align: center;
+    font: italic;
+    background-color: black;
+    color: white;
+}
+
+body{
+    background-color: rgb(206, 151, 50);
+}

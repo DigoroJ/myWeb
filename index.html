@@ -8,26 +8,36 @@
     <link rel="stylesheet" href="./style.css" />
 </head>
 <body>
-    <header> <h1>Welcome to my page</h1> 
+    <header> <h1>Master H Business Solutions</h1> 
     </header>
 
-    <div>
-        <img src="jd1.jpg" alt="this is Joseph">
-        <img src="jd2.jpg" alt="another pic">
+    <div class="row">
+        <div class="column">
+            <img src="jd1.jpg" alt="this is Joseph">
+
+        </div>
+
+        <div class="column">
+            <img src="jd2.jpg" alt="another pic">
+        </div>
+
+        <div class="column">
+            <p>
+                This is the picture of Joseph Moeletsi Digoro who is currently working as a Full stack developer at Digital Academy.
+                Joseph is passionate about programming and as we speak he's learning HTML and CSS.
+                His goal is to be a great developer, full stack developer but he's mostly strog
+                at back end development. 
+                At the end of the program he wants to establish his own company which he is working
+                on promoting it now. His company deals mostly with photography and wants to implement
+                Software Development in his company.
+            </p>
     
-        <p>
-            This is the picture of Joseph Moeletsi Digoro who is currently working as a Full stack developer at Digital Academy.
-            Joseph is passionate about programming and as we speak he's learning HTML and CSS.
-            His goal is to be a great developer, full stack developer but he's mostly strog
-            at back end development. 
-            At the end of the program he wants to establish his own company which he is working
-            on promoting it now. His company deals mostly with photography and wants to implement
-            Software Development in his company.
-        </p>
 
-    </div> 
+        </div>
+       
+    </div>   
 
-    <div>
+    <div class = "service_bar">
         <h3>Services</h1>
         <ul>
             <li>Photography</li>
@@ -42,7 +52,64 @@
 
     </div>
     
+    <br>
+<div class= "login_register">
 
+    <div class ="register">
+        <h2>Register</h2>
+        <form action="method.js" method="post">
+            <div>
+                <label>First Name</label>
+                <input type="text"   name="firstName">
+
+            </div>
+            <div> 
+                <label>Last Name</label>
+                <input type="text"   name="lastName">
+
+            </div>
+            <div>
+                <span>
+                <label>Email</label>
+                <input type="email"   name="email">
+
+            </div>
+            <div> 
+                <label>Password</label>
+                <input type="text"   name="Password">
+                </span>
+            </div>
+
+            <button>Register</button>
+
+
+
+        </form>
+
+        
+        <div class ="register">
+         <h2>Login</h2>
+         <form action="method.js" method="post">
+            <div>
+                <label>Email</label>
+                <input type="email"   name="email">
+
+            </div>
+            <div> 
+                <label>Password</label>
+                <input type="text"   name="Password">
+
+            </div>
+
+            <button>Login</button>
+
+
+            </form>
+
+        </div>
+    </div>
+</div>
+  
 
     <footer> <i>Master H Business Solutions Pty Ltd &copy; 2021 All  Rights Reserved  </i>  </footer>
 </body>
